@@ -49,52 +49,43 @@
                 <img src="image/bg.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 p-5 mt-2">
-                <div class="d-flex flex-row">
-                    <div class="mb-3 p-2">
-                        <h5>Username</h5>
-                        <input type="text" name="username" placeholder="username" class="form-control shadow-sm" id=""
-                            autofocus="true">
+                <div class="container">
+                    <h2 style="font-weight: lighter;text-align: center;">Let's get Started</h2>
+                    <form action="register" method="POST">
+                        <div class="user">
+                           <div class="input mb-2">
+                                 <span class="details mb-2">First Name</span>
+                                 <input type="text" name="first_name" class="form-control shadow-sm"  id="First_name" placeholder="First Name" required>
+                           </div>
+                           <div class="input mb-2">
+                                <span class="details" mb-2>Last Name</span>
+                                <input type="text" name="last_name" class="form-control shadow-sm"  id="last_name" placeholder="Last Name" required>
+                          </div>
+                          <div class="input mb-2">
+                                <span class="details mb-2">Email Address</Address></span>
+                                <input type="email" name="email_id" class="form-control shadow-sm"  id="Email_address" placeholder="Email Address" required>
+                          </div>
+                          <div class="input mb-2">
+                                <span class="details mb-2">Phone Number</span>
+                                <input type="tel" name="phone_number" class="form-control shadow-sm"  maxlength="10" id="phone" placeholder="Phone Number" required>
+                          </div>               
+                          <div class="input mb-2">
+                                <span class="details mb-2">Password</span>
+                                <input type="password" name="password1" class="form-control shadow-sm"  id="pass" placeholder="Enter password" required>
+                          </div>
+                          <div class="input mb-2">
+                                <span class="details mb-2">Confirm Password</span>
+                                <input type="password" name="password2" class="form-control shadow-sm"  id="Confirm_pass" placeholder="Re-enter Password" required>
+                         </div>
+                    </div> 
+                    <div class="button">
                     </div>
-                    <div class="mb-3 p-2">
-                        <h5>First Name</h5>
-                        <input type="text" name="username" placeholder="First Name" class="form-control shadow-sm" id=""
-                            autofocus="true">
+                    <div class="mb-3 p-3 text-center">
+                        <a href="signup_stu.html">
+                          <input type="submit" class="btn btn-outline-dark w-50" value="Register">
+                        </a>
                     </div>
-                </div>
-                <div class="d-flex flex-row">
-                    <div class="mb-3 p-2">
-                        <h5>Last Name</h5>
-                        <input type="text" name="username" placeholder="Last Name" class="form-control shadow-sm" id=""
-                            autofocus="true">
-                    </div>
-                    <div class="mb-3 p-2">
-                        <h5>Email Address</h5>
-                        <input type="email" name="Email" placeholder="Email" class="form-control shadow-sm" id=""
-                            autofocus="true">
-                    </div>
-                </div>
-                <div class="d-flex flex-row">
-                    <div class="mb-3 p-2">
-                        <h5>Password</h5>
-                        <input type="password" name="password" placeholder="Password" class="form-control shadow-sm"
-                            id="" autofocus="true">
-                    </div>
-                    <div class="mb-3 p-2">
-                        <h5>Confirm Password</h5>
-                        <input type="text" name="username" placeholder="Confirm Password" class="form-control shadow-sm"
-                            id="" autofocus="true">
-                    </div>
-                </div>
-                <div class="mb-3 p-3">
-                    <h5>Phone Number</h5>
-                    <input type="text" name="username" placeholder="Phone Number" class="form-control shadow-sm" id=""
-                        autofocus="true">
-                </div>
-                <div class="mb-3 p-3 text-center">
-                    <a href="signup_stu.html">
-                        <button type="submit" class="btn btn-outline-dark w-50">Next</button>
-                    </a>
-
+                </form>
                 </div>
             </div>
         </div>
@@ -103,5 +94,4 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
