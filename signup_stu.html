@@ -14,47 +14,46 @@
                <img src="image/3071357.jpg"  class="img-fluid" alt=""> 
             </div>
             <div class="col-lg-6 p-5 mt-2">
-                <div class="mb-3 p-2">
-                    <h6>Occupation</h6>
-                    <div class="dropdown">
-                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Select
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="signup_stu.html">Student</a>
-                          <a class="dropdown-item" href="signup_job.html">Job</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="mb-3 p-2">
-                    <h6>Institute Name</h6>
-                    <input type="text" name="username" placeholder="Institute Name" class="form-control shadow-sm" id="" autofocus ="true">
-                </div>
-                <div class="mb-3 p-2">
-                    <h6>Year of study</h6>
-                    <input type="text" name="username" placeholder="Year of study" class="form-control shadow-sm" id="" autofocus ="true">
-                </div>
-                <div class="mb-3 p-2">
-                    <h6>State</h6>
-                    <input type="text" name="username" placeholder="State" class="form-control shadow-sm" id="" autofocus ="true">
-                </div>
-                <div class="mb-3 p-2">
-                    <h6>City</h6>
-                    <input type="email" name="Email" placeholder="City" class="form-control shadow-sm" id="" autofocus ="true">
-                </div>
-                <div class="mb-3 p-2">
-                    <h6>Residence</h6>
-                    <input type="text" name="password" placeholder="Residence" class="form-control shadow-sm" id="" autofocus ="true">
-                </div>
-                <div class="mb-3 p-3 d-flex flex-row justify-content-center">
-                    <a href="signup.html">
-                        <button type="submit" class="btn btn-outline-dark m-4">Back</button>
-                    </a>
-                    <a>
-                        <button type="submit" class="btn btn-outline-dark m-4">Submit</button>
-                    </a>
-
-                </div>
+                <form>
+                    <span>Occupation</span>
+                    <div class="dropdown mb-2">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" required>
+                            Select
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="signup_stu.html">Student</a>
+                            <a class="dropdown-item" href="signup_job.html">Job</a>
+                            </div>
+                    </div>
+                    <div class="input mb-2">
+                        <span>Institute Name</span>
+                        <input type="text" name="username" placeholder="Institute Name" class="form-control shadow-sm" id="" autofocus ="true" required>
+                    </div>
+                    <div class="input mb-2">
+                        <span class="mb-3">Year of study</span>
+                        <input type="text" name="username" placeholder="Year of study" class="form-control shadow-sm" id="" autofocus ="true" required>
+                    </div>
+                    <div class="input mb-2">
+                        <span class="mb-3">State</span>
+                        <input type="text" name="username" placeholder="State" class="form-control shadow-sm" id="" autofocus ="true" required>
+                    </div>
+                    <div class="input mb-2">
+                         <span class="mb-3">City</span>
+                        <input type="email" name="Email" placeholder="City" class="form-control shadow-sm" id="" autofocus ="true" required> 
+                    </div>
+                    <div  class="input mb-2">
+                        <span class="mb-3">Residence</span>
+                        <input type="text" name="password" placeholder="Residence" class="form-control shadow-sm" id="" autofocus ="true" required>
+                    </div>
+                    <div class="mb-2 p-3 d-flex flex-row justify-content-center">
+                        <a href="signup.html">
+                            <button type="submit" class="btn btn-outline-dark m-2">Back</button>
+                        </a>
+                        <a>
+                            <button type="submit" class="btn btn-outline-dark m-2">Submit</button>
+                        </a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
